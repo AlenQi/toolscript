@@ -4,7 +4,10 @@
   "description": "tool js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d dist",
+    "prepublish": "npm run build",
+    "lint": "eslint --fix lib; exit 0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/AlenQi/tooljs/issues"
   },
-  "homepage": "https://github.com/AlenQi/tooljs#readme"
+  "homepage": "https://github.com/AlenQi/tooljs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.7.1"
+  }
 }
