@@ -1,11 +1,10 @@
-import os from 'os';
 import path from 'path';
 import mkdirp from 'mkdirp';
 import copyFile from './copy';
 import downloadFile from './download';
-import {randomFilename, isURL, noop} from './utils';
+import {randomFilename, isURL, noop, callbackify} from './utils';
 
-export default function download(source, target, progress) {
+export default callbackify(function download(source, target, progress) {
   target = target || randomFilename(download.tmpDir);
   progress = progress || noop;
   return new Promise((resolve, reject) => {
@@ -18,9 +17,4 @@ export default function download(source, target, progress) {
     });
 
   });
-}
-
-
-download(__filename, './tmp/copy.js', (size, total) => console.log(`进度${size}/${total}`))
-  .then(filename => console.log(`已保存到${filename}`))
-  .catch(err => console.log(`出错：${err}`));
+});
