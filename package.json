@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlenQi/tooljs.git"
+    "url": "git+https://github.com/AlenQi/toolscript.git"
   },
   "keywords": [
     "tool",
@@ -20,9 +20,9 @@
   "author": "alenqi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlenQi/tooljs/issues"
+    "url": "https://github.com/AlenQi/toolscript/issues"
   },
-  "homepage": "https://github.com/AlenQi/tooljs#readme",
+  "homepage": "https://github.com/AlenQi/toolscript#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
