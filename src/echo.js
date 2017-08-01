@@ -6,7 +6,7 @@ const echo = {
   stress: log(5), // carmine
   log: log(0) // white
 }
-let lists = [
+const lists = [
   '\x1b[30m',
   '\x1b[31m',
   '\x1b[32m',
@@ -17,11 +17,10 @@ let lists = [
   '\x1b[37m'
 ]
 function log(type) {
-  return function() {
+  return function () {
     let arg = ''
-    const len = arguments.length
-    for (let i in arguments) {
-      if (i == 0) {
+    for (const i in arguments) {
+      if (i === 0) {
         arg += arguments[i]
       } else {
         arg += ' ' + arguments[i]

@@ -7,7 +7,7 @@
     "test": "npm run build && mocha --compilers js:babel-core/register",
     "build": "babel src -d lib",
     "prepublish": "npm run build",
-    "lint": "eslint --fix lib; exit 0"
+    "lint": "eslint --fix src; exit 0"
   },
   "repository": {
     "type": "git",
