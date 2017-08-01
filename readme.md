@@ -16,10 +16,8 @@ npm install toolscript --save-dev
 ## Usage
 
 ``` JavaScript
-
 import tool from 'toolscript'
 tool.echo.error('echo red')
-
 ```
 
 ## Tool List
@@ -38,7 +36,15 @@ tool.echo.error('echo red')
     </tr>
     <tr id="echo">
         <th>echo</th>
-        <th>echo.error();echo.success();echo.warn();echo.debug();echo.stress();echo.log()</th>
+        <th>
+          <p>echo.error()</p>
+          <p>echo.success()</p>
+          <p>echo.warn()</p>
+          <p>echo.debug()</p>
+          <p>echo.stress()</p>
+          <p>echo.log()</p>
+          <p>echo.error()</p>
+        </th>
         <th>any data</th>
         <th>echo colorful information in console</th>
     </tr>
