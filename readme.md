@@ -35,6 +35,7 @@ npm install toolscript --save-dev
 ``` JavaScript
 import tool from 'toolscript'
 tool.echo.error('echo red')
+tool.detectIE(9) //if current browser is IE 9 return true else  return false
 ```
 
 ## Tool List
