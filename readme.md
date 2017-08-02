@@ -68,7 +68,7 @@ tool.echo.error('echo red')
     <tr>
         <th>detectIE</th>
         <th>detectIE()</th>
-        <th><em>init</em> version of IE</th>
+        <th><em>int</em> version of IE</th>
         <th>judge IE version</th>
     </tr>
 </table>
