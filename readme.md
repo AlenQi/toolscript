@@ -1,7 +1,24 @@
-# A mini tools of JavaScript
+# toolscript
+============================
+> A mini tools of JavaScript
 
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][cov-image]][cov-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/toolscript.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/toolscript
+[travis-image]: https://img.shields.io/travis/node-modules/toolscript.svg?style=flat-square
+[travis-url]: https://travis-ci.org/node-modules/toolscript
+[cov-image]: http://codecov.io/github/node-modules/toolscript/coverage.svg?branch=master
+[cov-url]: http://codecov.io/github/node-modules/toolscript?branch=master
+[download-image]: https://img.shields.io/npm/dm/toolscript.svg?style=flat-square
+[download-url]: https://npmjs.org/package/toolscript
 
 ## Install
+
+[![NPM](https://nodei.co/npm/toolscript.png?downloads=true)](https://nodei.co/npm/toolscript/)
 
 ```bash
 yarn add toolscript --dev
