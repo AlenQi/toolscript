@@ -36,12 +36,14 @@ npm install toolscript --save-dev
 import tool from 'toolscript'
 tool.echo.error('echo red')
 tool.detectIE(9) //if current browser is IE 9 return true else  return false
+tool.copy('content') //copy the `content` to clipboard
 ```
 
 ## Tool List
 
 - [echo](#echo)
 - [detectIE](#detectIE)
+- [copy](#copy)
 
 ### Tools
 
@@ -69,8 +71,20 @@ tool.detectIE(9) //if current browser is IE 9 return true else  return false
     <tr>
         <th>detectIE</th>
         <th>detectIE()</th>
-        <th><em>int</em> version of IE</th>
+        <th>
+          <p><em style="color: red">int</em></p>
+          version of IE
+        </th>
         <th>judge IE version</th>
+    </tr>
+    <tr>
+        <th>copy</th>
+        <th>copy()</th>
+        <th>
+          <p><em style="color: red">string</em></p>
+          the content
+        </th>
+        <th>copy the content to clipboard</th>
     </tr>
 </table>
 
