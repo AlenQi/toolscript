@@ -1,10 +1,11 @@
 const echo = {
-  error: log(1), // red
-  success: log(2), // green
-  warn: log(3), // yellow
-  debug: log(6), // cyan
-  stress: log(5), // carmine
-  log: log(0) // white
+  black: log(0), // black
+  red: log(1), // red
+  green: log(2), // green
+  yellow: log(3), // yellow
+  blue: log(4), // blue
+  carmine: log(5), // carmine
+  cyan: log(6) // cyan
 }
 const lists = [
   '\x1b[30m',

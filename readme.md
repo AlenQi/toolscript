@@ -34,7 +34,7 @@ npm install toolscript --save-dev
 
 ``` JavaScript
 import tool from 'toolscript'
-tool.echo.error('echo red')
+tool.echo.red('echo red')// echo red string
 tool.detectIE(9) //if current browser is IE 9 return true else  return false
 tool.copy('content') //copy the `content` to clipboard
 ```
@@ -57,13 +57,13 @@ tool.copy('content') //copy the `content` to clipboard
     <tr id="echo">
         <th>echo</th>
         <th>
-          <p>echo.error()</p>
-          <p>echo.success()</p>
-          <p>echo.warn()</p>
-          <p>echo.debug()</p>
-          <p>echo.stress()</p>
-          <p>echo.log()</p>
-          <p>echo.error()</p>
+          <p>echo.black()</p>
+          <p>echo.red()</p>
+          <p>echo.green()</p>
+          <p>echo.yellow()</p>
+          <p>echo.blue()</p>
+          <p>echo.carmine()</p>
+          <p>echo.cyan()</p>
         </th>
         <th>any data</th>
         <th>echo colorful information in console</th>
