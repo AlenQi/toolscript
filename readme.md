@@ -84,7 +84,7 @@ tool.copy('content') //copy the `content` to clipboard
           <p><em style="color: red">string</em></p>
           the content
         </th>
-        <th>copy the content to clipboard</th>
+        <th>copy the content to clipboard, it must be called as a direct result of user action.</th>
     </tr>
 </table>
 
