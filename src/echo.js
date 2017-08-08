@@ -26,7 +26,7 @@ function log(type) {
         arg += ' ' + arguments[i]
       }
     }
-    console.log(`%c ${arg}`,`color: ${colorList[type]}`, arg)
+    console.log(`%c ${arg}`,`color: ${colorList[type]}`)
   }
 }
 
