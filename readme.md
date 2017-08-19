@@ -100,14 +100,6 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
     </tr>
 </table>
 
-<style>
-  em {
-    color: red;
-  }
-</style>
-
-
-
 
 
 ## License
