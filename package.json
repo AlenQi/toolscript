@@ -1,6 +1,6 @@
 {
   "name": "toolscript",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "tool-js-package js",
   "main": "index.js",
   "scripts": {
