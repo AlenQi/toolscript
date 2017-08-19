@@ -7,18 +7,17 @@ const echo = {
   carmine: log(5), // carmine
   cyan: log(6) // cyan
 }
-const lists = [
-  '\x1b[30m',
-  '\x1b[31m',
-  '\x1b[32m',
-  '\x1b[33m',
-  '\x1b[34m',
-  '\x1b[35m',
-  '\x1b[36m',
-  '\x1b[37m'
+const colorList = [
+  '#000000',
+  '#FF0000',
+  '#008000',
+  '#FFFF00',
+  '#0000FF',
+  '#FF00FF',
+  '#00FFFF'
 ]
 function log(type) {
-  return function () {
+  return function() {
     let arg = ''
     for (const i in arguments) {
       if (i === 0) {
@@ -27,8 +26,7 @@ function log(type) {
         arg += ' ' + arguments[i]
       }
     }
-    arg = lists[type] + arg + lists[7]
-    console.log(arg)
+    console.log(`%c ${arg}`,`color: ${colorList[type]}`)
   }
 }
 

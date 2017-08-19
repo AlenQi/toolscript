@@ -86,7 +86,7 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
           <p><em style="color: red">string</em></p>
           the content
         </th>
-        <th>copy the content to clipboard</th>
+        <th>copy the content to clipboard, it must be called as a direct result of user action.</th>
     </tr>
     <tr>
         <th>throttle</th>
