@@ -74,7 +74,7 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
         <th>detectIE</th>
         <th>detectIE()</th>
         <th>
-          <p><em>`int`</em></p>
+          <p><em>*int*</em></p>
           version of IE
         </th>
         <th>judge IE version</th>
