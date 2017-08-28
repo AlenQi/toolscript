@@ -49,9 +49,9 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
 
 ### Tools
 
-<table>
+> <table>
     <tr>
-        <th>name</th>
+        <th style="color:red">name</th>
         <th>function</th>
         <th>parameters</th>
         <th>description</th>
