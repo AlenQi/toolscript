@@ -74,7 +74,7 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
         <th>detectIE</th>
         <th>detectIE()</th>
         <th>
-          <p><em>*int*</em></p>
+          <p><em>`int`</em></p>
           version of IE
         </th>
         <th>judge IE version</th>
@@ -83,7 +83,7 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
         <th>copy</th>
         <th>copy()</th>
         <th>
-          <p><em>`string`</em></p>
+          <p><em>string</em></p>
           the content
         </th>
         <th>copy the content to clipboard, it must be called as a direct result of user action.</th>
@@ -92,8 +92,8 @@ tool.throttle(Func, 50, 100) //The call that is triggered continuously within a 
         <th>throttle</th>
         <th>throttle()</th>
         <th>
-          <p>throttle function<em>function</em></p>
-          <p>the time that successive calls do not trigger, it's in milliseconds <em>number</em></p>
+          <p>throttle function<em>`function`</em></p>
+          <p>the time that successive calls do not trigger, it's in milliseconds <em>`number`</em></p>
           <p>the time that at least once, it's in milliseconds <em>`number`</em></p>
         </th>
         <th>function throttle</th>
