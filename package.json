@@ -1,6 +1,6 @@
 {
   "name": "toolscript",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "tool-js-package js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "babel src -d lib",
     "prepublish": "npm run build",
     "lint": "eslint --fix src; exit 0",
-    "update": "sh ./shell/update.sh"
+    "update": "sh ./tasks/update.sh"
   },
   "repository": {
     "type": "git",

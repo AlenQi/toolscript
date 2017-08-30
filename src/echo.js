@@ -1,3 +1,10 @@
+/**
+ * Print content.
+ *
+ * @param {*} Print content.
+ * @returns {Boolean} Returns success or faile.
+ */
+
 const echo = {
   black: log(0), // black
   red: log(1), // red
@@ -27,6 +34,7 @@ function log(type) {
       }
     }
     console.log(`%c ${arg}`,`color: ${colorList[type]}`)
+    return true
   }
 }
 

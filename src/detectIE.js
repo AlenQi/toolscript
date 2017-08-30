@@ -1,7 +1,11 @@
 /**
- * detect IE
+ * Judge the IE browser version.
+ *
+ * @param {Int} Internet explorer version.
+ * @returns {Boolean} Returns is it the current version.
  */
-export default function detectIE(version) {
+
+const detectIE = function(version) {
   const ua = window.navigator.userAgent
 
   if (version < 10) {
@@ -35,3 +39,5 @@ export default function detectIE(version) {
   // other browser
   return false
 }
+
+export default detectIE

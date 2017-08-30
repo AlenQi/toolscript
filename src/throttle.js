@@ -1,3 +1,11 @@
+/**
+ * throttle.
+ *
+ * @param {Function} The throttle function.
+ * @param {Number} The delay time.
+ * @param {Number} The minimum interval time.
+ */
+
 const throttle = function (fn, delay, mustRunDelay) {
   let timer = null
   let t_start
