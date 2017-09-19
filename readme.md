@@ -33,9 +33,8 @@ npm install toolscript --save-dev
 ## Usage
 
 ``` JavaScript
+
 import * as tool from 'toolscript'
-or
-import { echo, ...other} from 'toolscript'
 
 tool.echo.red('echo red')
 // echo red string
@@ -47,6 +46,15 @@ tool.throttle(Func, 50, 100)
 //The call that is triggered continuously within a 50ms interval, the latter call will handle the pending processing of the previous call, but at least once every 100ms
 tool.timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
 //Calculate the difference between two times, return '365天1小时0分钟0秒'
+
+OR
+
+import { echo, detectIE, ...other } from 'toolscript'
+
+timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
+//Calculate the difference between two times, return '365天1小时0分钟0秒'
+arrayRemoveEle(['1', '2', '3'], '1')
+//Remove the element that belong to the array
 ```
 
 ## Tool List
@@ -56,6 +64,7 @@ tool.timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
 - [copy](#copy)
 - [throttle](#throttle)
 - [timeDifference](#timeDifference)
+- [arrayRemoveEle](#arrayRemoveEle)
 
 ### Tools
 
@@ -116,6 +125,15 @@ tool.timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
           <p>endTime<em>`String`</em></p>
         </th>
         <th>Calculate the difference between two times</th>
+    </tr>
+    <tr id="arrayRemoveEle">
+        <th>arrayRemoveEle</th>
+        <th>arrayRemoveEle(array, removeValue)</th>
+        <th>
+          <p>array<em>`Array`</em></p>
+          <p>removeValue<em>`Element type`</em></p>
+        </th>
+        <th>Remove the element that belong to the array</th>
     </tr>
 </table>
 
