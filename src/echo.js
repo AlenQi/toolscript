@@ -14,6 +14,7 @@ const echo = {
   carmine: log(5), // carmine
   cyan: log(6) // cyan
 }
+
 const colorList = [
   '#000000',
   '#FF0000',
@@ -23,7 +24,9 @@ const colorList = [
   '#FF00FF',
   '#00FFFF'
 ]
+
 function log(type) {
+
   return function() {
     let arg = ''
     for (const i in arguments) {
@@ -34,6 +37,7 @@ function log(type) {
       }
     }
     console.log(`%c ${arg}`,`color: ${colorList[type]}`)
+    
     return true
   }
 }

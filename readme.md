@@ -40,31 +40,41 @@ tool.echo.red('echo red')
 // echo red string
 tool.detectIE(9)
 //if current browser is IE 9 return true else  return false
-tool.copy('content')
+tool.copyText('content')
 //copy the `content` to clipboard
 tool.throttle(Func, 50, 100)
 //The call that is triggered continuously within a 50ms interval, the latter call will handle the pending processing of the previous call, but at least once every 100ms
 tool.timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
 //Calculate the difference between two times, return '365天1小时0分钟0秒'
+tool.arrayRemoveEle(['1', '2', '3'], '1')
+//Remove the element that belong to the array
+tool.isPlainObject(obj)
+//Judge the value is a Object.
+
 
 OR
 
 import { echo, detectIE, ...other } from 'toolscript'
 
-timeDifference('2017-01-01 12:00:00', '2018-01-01 13:00:00')
-//Calculate the difference between two times, return '365天1小时0分钟0秒'
-arrayRemoveEle(['1', '2', '3'], '1')
-//Remove the element that belong to the array
+echo.red('echo red')
+// echo red string
+detectIE(9)
+//if current browser is IE 9 return true else  return false
+copyText('content')
+//copy the `content` to clipboard
+...
+
 ```
 
 ## Tool List
 
 - [echo](#echo)
 - [detectIE](#detectIE)
-- [copy](#copy)
+- [copyText](#copyText)
 - [throttle](#throttle)
 - [timeDifference](#timeDifference)
 - [arrayRemoveEle](#arrayRemoveEle)
+- [isPlainObject](#isPlainObject)
 
 ### Tools
 
@@ -98,8 +108,8 @@ arrayRemoveEle(['1', '2', '3'], '1')
         </th>
         <th>judge IE version</th>
     </tr>
-    <tr id="copy">
-        <th>copy</th>
+    <tr id="copyText">
+        <th>copyText</th>
         <th>copy(text)</th>
         <th>
           <p><em>string</em></p>
@@ -134,6 +144,14 @@ arrayRemoveEle(['1', '2', '3'], '1')
           <p>removeValue<em>`Element type`</em></p>
         </th>
         <th>Remove the element that belong to the array</th>
+    </tr>
+    <tr id="isPlainObject">
+        <th>isPlainObject</th>
+        <th>isPlainObject(obj)</th>
+        <th>
+          <p>any data</p>
+        </th>
+        <th>Judge the value is a Object</th>
     </tr>
 </table>
 
