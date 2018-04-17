@@ -5,6 +5,7 @@ import throttle from './throttle'
 import timeDifference from './timeDifference'
 import arrayRemoveEle from './arrayRemoveEle'
 import isPlainObject from './isPlainObject'
+import rgbToHex from './rgbToHex'
 
 export {
   detectIE,
@@ -13,5 +14,6 @@ export {
   throttle,
   timeDifference,
   arrayRemoveEle,
-  isPlainObject
+  isPlainObject,
+  rgbToHex
 }

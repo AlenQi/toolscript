@@ -50,6 +50,8 @@ tool.arrayRemoveEle(['1', '2', '3'], '1')
 //Remove the element that belong to the array
 tool.isPlainObject(obj)
 //Judge the value is a Object.
+tool.rgbToHex(255, 255, 255)
+//rgb switch to the Hexadecimal.
 
 
 OR
@@ -75,6 +77,7 @@ copyText('content')
 - [timeDifference](#timeDifference)
 - [arrayRemoveEle](#arrayRemoveEle)
 - [isPlainObject](#isPlainObject)
+- [rgbToHex](#rgbToHex)
 
 ### Tools
 
@@ -152,6 +155,14 @@ copyText('content')
           <p>any data</p>
         </th>
         <th>Judge the value is a Object</th>
+    </tr>
+    <tr id="rgbToHex">
+        <th>rgbToHex</th>
+        <th>rgbToHex(R, G, B)</th>
+        <th>
+          <p>the rgb value<em>`number`</em></p>
+        </th>
+        <th>rgb switch to the Hexadecimal</th>
     </tr>
 </table>
 
