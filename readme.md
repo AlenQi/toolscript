@@ -166,6 +166,12 @@ copyText('content')
     </tr>
 </table>
 
+## Realse
+
+``` shell
+npm publish
+```
+
 
 
 ## License
