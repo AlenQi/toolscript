@@ -166,7 +166,7 @@ copyText('content')
     </tr>
 </table>
 
-## Realse
+## Release
 
 ``` shell
 npm publish
