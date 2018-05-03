@@ -7,7 +7,6 @@
  */
 
 const timeDifference = function(startTime, endTime) {
-  
   const date1 = new Date(startTime)
 
   const date2 = new Date(endTime)

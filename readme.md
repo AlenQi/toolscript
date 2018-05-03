@@ -52,6 +52,8 @@ tool.isPlainObject(obj)
 //Judge the value is a Object.
 tool.rgbToHex(255, 255, 255)
 //rgb switch to the Hexadecimal.
+too.countMaxRepetition('abskgoxugnska14432q1124')
+//Count the characters that repeat the most times in a string.
 
 
 OR
@@ -78,6 +80,7 @@ copyText('content')
 - [arrayRemoveEle](#arrayRemoveEle)
 - [isPlainObject](#isPlainObject)
 - [rgbToHex](#rgbToHex)
+- [countMaxRepetition](countMaxRepetition)
 
 ### Tools
 
@@ -163,6 +166,14 @@ copyText('content')
           <p>the rgb value<em>`number`</em></p>
         </th>
         <th>rgb switch to the Hexadecimal</th>
+    </tr>
+    <tr id="countMaxRepetition">
+        <th>countMaxRepetition</th>
+        <th>countMaxRepetition('abskgoxugnska14432q1124')</th>
+        <th>
+          <p><em>`string`</em></p>
+        </th>
+        <th>Count the characters that repeat the most times in a string.</th>
     </tr>
 </table>
 
