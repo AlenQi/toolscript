@@ -26,7 +26,6 @@ const colorList = [
 ]
 
 function log(type) {
-
   return function() {
     let arg = ''
     for (const i in arguments) {
@@ -36,8 +35,8 @@ function log(type) {
         arg += ' ' + arguments[i]
       }
     }
-    console.log(`%c ${arg}`,`color: ${colorList[type]}`)
-    
+    console.log(`%c ${arg}`, `color: ${colorList[type]}`)
+
     return true
   }
 }
