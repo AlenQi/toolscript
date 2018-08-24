@@ -14,10 +14,10 @@ const Char = function(str) {
 }
 
 const countMaxRepetition = function(str) {
-  let obj = Char(str)
+  const obj = Char(str)
   let maxCount = 0
   let maxItem = null
-  for (let i in obj) {
+  for (const i in obj) {
     if (obj[i] > maxCount) {
       maxCount = obj[i]
       maxItem = i
