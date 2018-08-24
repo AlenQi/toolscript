@@ -6,7 +6,6 @@
  */
 
 const copyText = function(text) {
-
   const aux = document.createElement('input')
 
   const content = text
