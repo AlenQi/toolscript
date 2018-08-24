@@ -7,11 +7,11 @@
  * @returns {Function} Returns the throttle function.
  */
 
-const throttle = function (fn, delay, mustRunDelay) {
+const throttle = function(fn, delay, mustRunDelay) {
   let timer = null
   let t_start
 
-  return function () {
+  return function() {
     var context = this,
       args = arguments,
       t_curr = +new Date()
@@ -23,7 +23,7 @@ const throttle = function (fn, delay, mustRunDelay) {
       fn.apply(context, args)
       t_start = t_curr
     } else {
-      timer = setTimeout(function () {
+      timer = setTimeout(function() {
         fn.apply(context, args)
       }, delay)
     }

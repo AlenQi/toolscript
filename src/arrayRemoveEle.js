@@ -14,7 +14,6 @@ Array.prototype.indexOf = function(val) {
 }
 
 Array.prototype.remove = function(val) {
-
   const index = this.indexOf(val)
 
   if (index > -1) {
@@ -23,7 +22,6 @@ Array.prototype.remove = function(val) {
 }
 
 const arrayRemoveEle = function(array, removeValue) {
-  
   return array.remove(removeValue)
 }
 
