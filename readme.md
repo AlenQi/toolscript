@@ -54,6 +54,8 @@ tool.rgbToHex(255, 255, 255)
 //rgb switch to the Hexadecimal.
 too.countMaxRepetition('abskgoxugnska14432q1124')
 //Count the characters that repeat the most times in a string.
+too.unitNormalization(1.259, 2) //1.26
+//Format the number that reserve the decimal for the specified number of digits.
 
 
 OR
@@ -81,6 +83,7 @@ copyText('content')
 - [isPlainObject](#isPlainObject)
 - [rgbToHex](#rgbToHex)
 - [countMaxRepetition](countMaxRepetition)
+- [unitNormalization](unitNormalization)
 
 ### Tools
 
@@ -174,6 +177,15 @@ copyText('content')
           <p><em>`string`</em></p>
         </th>
         <th>Count the characters that repeat the most times in a string.</th>
+    </tr>
+    <tr id="unitNormalization">
+        <th>unitNormalization</th>
+        <th>unitNormalization(1.253, 2)</th>
+        <th>
+          <p><em>`number`</em></p>
+          <p><em>`int`</em></p>
+        </th>
+        <th>Format the number that reserve the decimal for the specified number of digits.</th>
     </tr>
 </table>
 
