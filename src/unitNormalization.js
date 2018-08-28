@@ -1,7 +1,12 @@
-var num = 1.256
-Math.floor(Math.round(num * 100)) / 100
+/**
+ * Format the number that reserve the decimal for the specified number of digits.
+ *
+ * @param {Number} The number.
+ * @param {int} The number is the digits that you want to keep.
+ * @returns {Number} Returns the formatted number.
+ */
 
-function unitNormalization(arr, digit) {
+const unitNormalization = function (arr, digit) {
   /*单位规整*/
   digit = digit || 0
   const prence = Math.pow(10, digit)
@@ -17,5 +22,4 @@ function unitNormalization(arr, digit) {
   }
 }
 
-unitNormalization(1.253, 2) //1.25
-unitNormalization(1.257, 2) //1.26
+export default unitNormalization
