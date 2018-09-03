@@ -1,6 +1,6 @@
 import detectIE from './detectIE'
 import echo from './echo'
-import copy from './copy'
+import copyText from './copyText'
 import throttle from './throttle'
 import timeDifference from './timeDifference'
 import arrayRemoveEle from './arrayRemoveEle'
@@ -11,7 +11,6 @@ import unitNormalization from './unitNormalization'
 export {
   detectIE,
   echo,
-  copy,
   copyText,
   throttle,
   timeDifference,
