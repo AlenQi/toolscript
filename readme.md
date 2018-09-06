@@ -1,4 +1,4 @@
-# toolscript 123
+# toolscript
 
 > A mini tools of JavaScript
 
