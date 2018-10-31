@@ -84,6 +84,7 @@ copyText('content')
 - [rgbToHex](#rgbToHex)
 - [countMaxRepetition](countMaxRepetition)
 - [unitNormalization](unitNormalization)
+- [getScriptPath](getScriptPath)
 
 ### Tools
 
@@ -186,6 +187,12 @@ copyText('content')
           <p><em>`int`</em></p>
         </th>
         <th>Format the number that reserve the decimal for the specified number of digits.</th>
+    </tr>
+    <tr id="getScriptPath">
+        <th>getScriptPath</th>
+        <th>getScriptPath()</th>
+        <th></th>
+        <th>Get current script url.</th>
     </tr>
 </table>
 

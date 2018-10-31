@@ -7,6 +7,7 @@ import arrayRemoveEle from './arrayRemoveEle'
 import isPlainObject from './isPlainObject'
 import rgbToHex from './rgbToHex'
 import unitNormalization from './unitNormalization'
+import getScriptPath from './getScriptPath'
 
 export {
   detectIE,
@@ -17,5 +18,6 @@ export {
   arrayRemoveEle,
   isPlainObject,
   rgbToHex,
-  unitNormalization
-}
+  unitNormalization,
+  getScriptPath
+};
